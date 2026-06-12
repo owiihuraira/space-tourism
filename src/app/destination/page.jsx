@@ -43,7 +43,7 @@ function Destination() {
 
   return (
     <div
-      className="min-h-screen"
+      className="min-h-screen bg-cover"
       style={{ backgroundImage: "url('/destination.jpg')" }}
     >
       <Navbar />
