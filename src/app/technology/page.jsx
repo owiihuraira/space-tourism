@@ -40,7 +40,7 @@ function Technology() {
         <span className="text-[#4F596A] font-extrabold">03&nbsp;&nbsp;</span>Space Launch 101
       </h1>
 
-      <div className="flex flex-col lg:flex-row items-center pt-8 justify-center gap-10 md:gap-16 lg:gap-20 px-6 md:px-10 lg:ml-25">
+      <div className="flex flex-col lg:flex-row items-center pt-8 justify-center gap-10 md:gap-16 lg:gap-20 md:px-8 lg:ml-25">
         <div className="order-2 lg:order-1 flex lg:flex-col gap-4 md:gap-6 lg:gap-10">
           {obj.map((space) => (
             <button
@@ -63,7 +63,7 @@ function Technology() {
         <img
           src={selectedSpace.img}
           alt={selectedSpace.img}
-          className="order-1 lg:order-3 rounded-md"
+          className="order-1 lg:order-3"
         />
       </div>
 
